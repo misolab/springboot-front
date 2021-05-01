@@ -1,4 +1,4 @@
-# springboot webapp
-springboot webapp (single module)
+# springboot front
+springboot front (vue.js)
 
 
