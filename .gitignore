@@ -1,3 +1,8 @@
 /target
 .idea
 *.iml
+
+/front/node
+/front/node_modules
+/front/dist
+

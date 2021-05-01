@@ -16,10 +16,8 @@ import java.util.Arrays;
 @RequestMapping("/")
 public class IndexController extends BaseController {
 
-    @GetMapping
-    public String index(Model model) {
-        model.addAttribute("name", "hello misolab");
-        model.addAttribute("list", Arrays.asList(1, 2, 3, 4));
+    @GetMapping(value = {"/", "/login"})
+    public String entry() {
         return "index";
     }
 
